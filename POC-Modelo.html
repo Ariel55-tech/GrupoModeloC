@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="diseño.css" rel="stylesheet">
+    <!--Para usar JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  </head>
+  
+
+  <body>
+    <!------------------------------------------------------Header-------------------------------------------------------------------------->
+    <div class="conatiner">
+      <div class="row">
+        <div class="col-xs-12" id="header">
+          <a href="C:\Users\JESUSARIELLEONESCAMI\Desktop\Proyecto-Modelo\Calificacion\calificacion.html"><p style="font-size:1.2vw;display:inline" id="homologacion"><b>Homologación de Proveedores</b></p></a>
+          <p  style="font-size:1.2vw; display:inline" class="obtener"><b>Obtener resultados</b></p>
+          <p  style="font-size:1.2vw; display:inline;" class="obtener"><b>Ingreso de documentos/</b></p>
+        </div>
+      </div>
+    </div>
+    <!---  <header><h1>Grupo Modelo</h1></header>-->
+    <!--------------------------------------------------------Main-------------------------------------------------------->
+    <div class="conatiner" id="formulario1">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3">
+          <p></p>
+          <p></p>
+            <img src="LogoModelo.png" class="img-fluid rounded-circle" id="logo">
+        </div>
+        <div class="col-xs-6 col-sm-6 overflow-auto" id="formulario">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div id="lol">
+            <p style="margin-left: 20px; margin-top: 15px;"><b>Formulario</b></p>
+        </div>
+            <p class="p1" style="margin-top: 60px;">1. ¿Has violado alguna de tus responsabilidades sociales?</p> 
+            <select id="p1" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p></p>
+            <p class="p1">2. ¿Tus proveedores han violado tus responsabilidades sociales?</p>
+            <select id="p2" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p></p>
+            <p class="p1">3. ¿Tienes un código de conducta corportivo?</p>
+            <select id="p3" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p></p>
+
+            <p class="p1">4. ¿Tu plan de negocios y estrategias se alinea con el nuestro?</p>
+            <select id="p4" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p></p>
+            <p class="p1">5. ¿Desechas correctamente tus residuos?</p>
+            <select id="p5" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p></p>
+            <p class="p1">6. ¿Tú empresa cuenta con codigo de ética que deba ser seguido desde
+                              la punta hasta los nieveles más básicos del organigrama?</p>
+            <select id="p6" onchange="val1();">
+              <option value="nulo">Elija una opcion</option>
+              <option value="si">sí</option>
+              <option value="no">no</option>
+            </select>
+            <p syle="margin-bottom: 30px"></p>
+            <button style="margin-left: 280px; margin-bottom: 30px;">Evaluar</button>
+
+        </div>
+
+
+        <div class="col-xs-3 col-sm-3">
+
+          <p></p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------------------------------Footer-------------------------------------------------------->
+    <div class="footer col-xs-12">
+      <img src="LOGO.png" class="img-fluid" id="logo1" style="display:inline">
+
+      <!--<h2 style="display:inline"><b>Homologación de proveedores</b></h2>-->
+    </div>
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="/Formulario/acciones.js"></script>
+    <script type="application/javascript" src="/Formulario/conexion.js"></script>
+
+  </body>
+
+</html>
